@@ -28,11 +28,12 @@ class MainActivity : AppCompatActivity() {
         
         // Respond to button click event per specifications
 
-        /*clickMeButton.setOnClickListener {
+        clickMeButton.setOnClickListener {
             val name = nameEditText.text.toString()
             val new_name : String = "Hello, $name"
+            displayTextView.text = new_name
 
-        }*/
+        }
 
     }
 }
